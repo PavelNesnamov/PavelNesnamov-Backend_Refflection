@@ -1,5 +1,7 @@
 package ait.homework01.lineManipulation;
 
+import ait.homework01.lineManipulation.intra.TextFileExecutor;
+
 public class ManipulatorAppl {
 
     public static void main(String[] args) {
