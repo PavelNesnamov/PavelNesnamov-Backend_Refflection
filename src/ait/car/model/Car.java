@@ -14,14 +14,14 @@ public class Car {
     private String model;
     @Index
     private int year;
-    private  int gazTank;
+    private int gazTank;
     @Index
     private int odometer;
     private String color;
     @Index
     private double price;
 
-    public Car(String regNumber, String model, int year, int gazTank,int odometer, String color, double price) {
+    public Car(String regNumber, String model, int year, int gazTank, int odometer, String color, double price) {
         this.regNumber = regNumber;
         this.model = model;
         this.year = year;
