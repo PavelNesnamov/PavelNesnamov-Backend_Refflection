@@ -18,7 +18,7 @@ public class TextFileExecutor {
         ) {
             List<String> text = new ArrayList();
 
-            for(String str = in.readLine(); str != null; str = in.readLine()) {
+            for (String str = in.readLine(); str != null; str = in.readLine()) {
                 text.add(str);
             }
 
@@ -26,7 +26,7 @@ public class TextFileExecutor {
             chars[0] = Character.toUpperCase(chars[0]);
             action = new String(chars);
             Class<?> clazz = Class.forName("ait.linemanipulation.model." + action);
-            Manipulation manipulator = (Manipulation)clazz.getDeclaredConstructor().newInstance();
+            Manipulation manipulator = (Manipulation) clazz.getDeclaredConstructor().newInstance();
             manipulator.action(text);
             text.forEach((s) -> wr.println(s));
             wr.flush();

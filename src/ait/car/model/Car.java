@@ -4,6 +4,7 @@ import ait.utils.Id;
 import ait.utils.Index;
 import ait.utils.Table;
 
+
 @Table(name = "auto")
 public class Car {
 

@@ -1,4 +1,5 @@
 package ait.employee.model;
+
 import ait.utils.Id;
 import ait.utils.Index;
 import ait.utils.Table;
